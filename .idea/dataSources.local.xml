@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - java-forum@localhost" uuid="249f093a-6f7d-4895-9a21-fcdf04f10407">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>java-forum.*</schema-pattern>
+      <default-schemas>java-forum.*</default-schemas>
+    </data-source>
+  </component>
+</project>
