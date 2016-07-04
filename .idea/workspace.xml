@@ -52,22 +52,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EntityManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/bg/royal/orm/operation/EntityManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="220">
+              <caret line="64" column="49" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1467663013238" expanded="true" signature="1672:1685" ph="SELECT * FRO... " />
-                <marker date="1467663013238" expanded="true" signature="1672:1686" ph="SELECT * FRO... users" />
-                <marker date="1467663013238" expanded="true" signature="1672:1726" ph="SELECT * FRO... missingValue" />
-                <marker date="1467663013238" expanded="true" signature="1672:1727" ph="SELECT * FRO... missingValue" />
-                <marker date="1467663013238" expanded="true" signature="1672:1753" ph="SELECT * FRO... missingValue" />
-                <marker date="1467663013238" expanded="true" signature="2915:3023" ph="SELECT * FRO... missingValue" />
-                <marker date="1467663013238" expanded="true" signature="4533:4545" ph="INSERT INTO missingValue... " />
-                <marker date="1467663013238" expanded="true" signature="4879:4934" ph="UPDATE missi... " />
-                <marker date="1467663013238" expanded="true" signature="11072:11139" ph="SELECT missi... " />
+                <marker date="1467666991675" expanded="true" signature="2904:2917" ph="SELECT * FRO... " />
+                <marker date="1467666991675" expanded="true" signature="2904:2918" ph="SELECT * FRO... users" />
+                <marker date="1467666991675" expanded="true" signature="2904:2958" ph="SELECT * FRO... missingValue" />
+                <marker date="1467666991675" expanded="true" signature="2904:2959" ph="SELECT * FRO... missingValue" />
+                <marker date="1467666991675" expanded="true" signature="2904:2985" ph="SELECT * FRO... missingValue" />
+                <marker date="1467666991675" expanded="true" signature="4147:4255" ph="SELECT * FRO... missingValue" />
+                <marker date="1467666991675" expanded="true" signature="5765:5777" ph="INSERT INTO missingValue... " />
+                <marker date="1467666991675" expanded="true" signature="6111:6166" ph="UPDATE missi... " />
+                <marker date="1467666991675" expanded="true" signature="13182:13249" ph="SELECT missi... " />
               </folding>
             </state>
           </provider>
@@ -86,8 +86,8 @@
       <file leaf-file-name="DbContext.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bg/royal/orm/DbContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="83" column="47" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
+            <state relative-caret-position="122">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -103,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bg/royal/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1023">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="249">
+              <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,14 +200,14 @@
         <option value="$PROJECT_DIR$/src/main/java/bg/royal/orm/EntityManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/bg/royal/orm/collections/LazyResultSet.java" />
         <option value="$PROJECT_DIR$/src/main/java/bg/royal/orm/criteria/Join.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bg/royal/orm/operation/EntityManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/bg/royal/orm/Connector.java" />
         <option value="$PROJECT_DIR$/src/main/java/bg/royal/orm/RelationalResultSet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bg/royal/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/bg/royal/orm/persistence/Column.java" />
         <option value="$PROJECT_DIR$/src/main/java/bg/royal/orm/persistence/Entity.java" />
         <option value="$PROJECT_DIR$/src/main/java/bg/royal/orm/persistence/Id.java" />
         <option value="$PROJECT_DIR$/src/main/java/bg/royal/orm/DbContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bg/royal/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bg/royal/orm/operation/EntityManager.java" />
       </list>
     </option>
   </component>
@@ -1010,12 +1010,12 @@
       <option name="presentableId" value="Default" />
       <updated>1467541152622</updated>
       <workItem from="1467541156011" duration="42503000" />
-      <workItem from="1467664224454" duration="9000" />
+      <workItem from="1467664224454" duration="2784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42512000" />
+    <option name="totallyTimeSpent" value="45287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="744" extended-state="6" />
@@ -1023,11 +1023,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3769716" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1037,14 +1039,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44637224" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44637224" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3769716" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1064,15 +1064,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/bg/royal/orm/operation/EntityManager.java</url>
-          <line>463</line>
+          <line>210</line>
           <properties />
-          <option name="timeStamp" value="57" />
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="58" />
+      <option name="time" value="68" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1095,15 +1095,15 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1467663013238" expanded="true" signature="1672:1685" ph="SELECT * FRO... " />
-            <marker date="1467663013238" expanded="true" signature="1672:1686" ph="SELECT * FRO... users" />
-            <marker date="1467663013238" expanded="true" signature="1672:1726" ph="SELECT * FRO... missingValue" />
-            <marker date="1467663013238" expanded="true" signature="1672:1727" ph="SELECT * FRO... missingValue" />
-            <marker date="1467663013238" expanded="true" signature="1672:1753" ph="SELECT * FRO... missingValue" />
-            <marker date="1467663013238" expanded="true" signature="2915:3023" ph="SELECT * FRO... missingValue" />
-            <marker date="1467663013238" expanded="true" signature="4533:4545" ph="INSERT INTO missingValue... " />
-            <marker date="1467663013238" expanded="true" signature="4879:4934" ph="UPDATE missi... " />
-            <marker date="1467663013238" expanded="true" signature="11072:11139" ph="SELECT missi... " />
+            <marker date="1467666991675" expanded="true" signature="2904:2917" ph="SELECT * FRO... " />
+            <marker date="1467666991675" expanded="true" signature="2904:2918" ph="SELECT * FRO... users" />
+            <marker date="1467666991675" expanded="true" signature="2904:2958" ph="SELECT * FRO... missingValue" />
+            <marker date="1467666991675" expanded="true" signature="2904:2959" ph="SELECT * FRO... missingValue" />
+            <marker date="1467666991675" expanded="true" signature="2904:2985" ph="SELECT * FRO... missingValue" />
+            <marker date="1467666991675" expanded="true" signature="4147:4255" ph="SELECT * FRO... missingValue" />
+            <marker date="1467666991675" expanded="true" signature="5765:5777" ph="INSERT INTO missingValue... " />
+            <marker date="1467666991675" expanded="true" signature="6111:6166" ph="UPDATE missi... " />
+            <marker date="1467666991675" expanded="true" signature="13182:13249" ph="SELECT missi... " />
           </folding>
         </state>
       </provider>
@@ -1197,6 +1197,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,6 +1243,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-104">
           <caret line="147" column="49" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1310,6 +1312,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1446,33 +1449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bg/royal/orm/DbContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="47" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bg/royal/orm/operation/EntityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1467663013238" expanded="true" signature="1672:1685" ph="SELECT * FRO... " />
-            <marker date="1467663013238" expanded="true" signature="1672:1686" ph="SELECT * FRO... users" />
-            <marker date="1467663013238" expanded="true" signature="1672:1726" ph="SELECT * FRO... missingValue" />
-            <marker date="1467663013238" expanded="true" signature="1672:1727" ph="SELECT * FRO... missingValue" />
-            <marker date="1467663013238" expanded="true" signature="1672:1753" ph="SELECT * FRO... missingValue" />
-            <marker date="1467663013238" expanded="true" signature="2915:3023" ph="SELECT * FRO... missingValue" />
-            <marker date="1467663013238" expanded="true" signature="4533:4545" ph="INSERT INTO missingValue... " />
-            <marker date="1467663013238" expanded="true" signature="4879:4934" ph="UPDATE missi... " />
-            <marker date="1467663013238" expanded="true" signature="11072:11139" ph="SELECT missi... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bg/royal/orm/RelationalResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1483,10 +1459,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bg/royal/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1023">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="249">
+          <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bg/royal/orm/DbContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bg/royal/orm/operation/EntityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="64" column="49" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1467666991675" expanded="true" signature="2904:2917" ph="SELECT * FRO... " />
+            <marker date="1467666991675" expanded="true" signature="2904:2918" ph="SELECT * FRO... users" />
+            <marker date="1467666991675" expanded="true" signature="2904:2958" ph="SELECT * FRO... missingValue" />
+            <marker date="1467666991675" expanded="true" signature="2904:2959" ph="SELECT * FRO... missingValue" />
+            <marker date="1467666991675" expanded="true" signature="2904:2985" ph="SELECT * FRO... missingValue" />
+            <marker date="1467666991675" expanded="true" signature="4147:4255" ph="SELECT * FRO... missingValue" />
+            <marker date="1467666991675" expanded="true" signature="5765:5777" ph="INSERT INTO missingValue... " />
+            <marker date="1467666991675" expanded="true" signature="6111:6166" ph="UPDATE missi... " />
+            <marker date="1467666991675" expanded="true" signature="13182:13249" ph="SELECT missi... " />
           </folding>
         </state>
       </provider>

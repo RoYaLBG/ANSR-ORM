@@ -23,15 +23,46 @@ import java.util.stream.Collectors;
 public class EntityManager implements DbContext {
 
     private Connection connection;
+    private Set<Object> persistedEntities;
 
     public EntityManager(Connection connection) {
         this.connection = connection;
+        this.persistedEntities = new HashSet<>();
     }
 
-    public <E> boolean persist(E entity) throws IllegalAccessException, SQLException {
+    public <E> boolean persist(E entity) throws SQLException, IllegalAccessException {
+        return this.persist(entity, false);
+    }
+
+    public <E> boolean persist(E entity, boolean withRelations) throws IllegalAccessException, SQLException {
+        if (entity == null || this.persistedEntities.contains(entity)) {
+            return false;
+        }
+
+        if (withRelations) {
+            this.persistedEntities.add(entity);
+            for (Field field : entity.getClass().getDeclaredFields()) {
+                if (field.isAnnotationPresent(Join.class)) {
+                    Join annotation = field.getAnnotation(Join.class);
+                    Class relation = annotation.table();
+                    field.setAccessible(true);
+                    Object relatedEntity = field.get(entity);
+                    if (relatedEntity instanceof Iterable) {
+                        for (Object element : (Iterable)relatedEntity) {
+                            this.persist(element, true);
+                        }
+                    } else {
+                        this.persist(relatedEntity, true);
+                    }
+                }
+            }
+        }
+
+
         Field primary = this.getId(entity.getClass());
         primary.setAccessible(true);
         Object value = primary.get(entity);
+        this.persistedEntities = new HashSet<>();
         if (value == null || (Long)value <= 0) {
             return this.doInsert(entity, primary);
         }
@@ -146,12 +177,33 @@ public class EntityManager implements DbContext {
                 continue;
             }
 
-            query += "`" + this.getFieldName(field) + "` = ";
-            query += "'" + field.get(entity).toString() + "'";
 
-            if (i < fields.length - 1) {
-                query += ", ";
+            if (field.get(entity) != null) {
+                query += "`" + this.getFieldName(field) + "` = ";
+                field.setAccessible(true);
+                String currentValue = field.get(entity).toString();
+                Optional<Field> relativeIdField =
+                        Arrays.stream(field.get(entity).getClass().getDeclaredFields())
+                        .filter(t -> t.isAnnotationPresent(Id.class))
+                        .findFirst();
+                if (relativeIdField.isPresent()) {
+                    Field relativePrimary = relativeIdField.get();
+                    relativePrimary.setAccessible(true);
+                    Object val = relativePrimary.get(field.get(entity));
+                    if (val != null) {
+                        currentValue = val.toString();
+                    } else {
+                        currentValue = "";
+                    }
+                }
+                query += "'" + currentValue  + "'";
+                if (i < fields.length - 1) {
+                    query += ", ";
+                }
             }
+
+
+
         }
 
         query += where;

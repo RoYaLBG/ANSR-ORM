@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public interface DbContext {
 
     /**
-     * Updates/Inserts entity whether it's attached to the context
+     * Updates/Inserts entity depending if it's attached to the context
      *
      * @param entity Entity to be persisted
      * @return Whether it was persisted
@@ -16,6 +16,19 @@ public interface DbContext {
      * @throws SQLException
      */
     <E> boolean persist(E entity) throws IllegalAccessException, SQLException;
+
+    /**
+     * Updates/Inserts entity depending it's attached to the context.
+     * If the optional parameter 'withRelations' is TRUE
+     * it persists all related entities recursively
+     *
+     * @param entity Entity to be persisted
+     * @param withRelations whether to persist relations recusrively
+     * @return Whether it was persisted
+     * @throws IllegalAccessException
+     * @throws SQLException
+     */
+    <E> boolean persist(E entity, boolean withRelations) throws IllegalAccessException, SQLException;
 
     /**
      * Executes SQL query against a Database and returns an iterable

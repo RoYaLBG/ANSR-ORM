@@ -97,7 +97,14 @@ public class Main {
                 .innerJoin(Hero.class)
                 .toEntity(User.class)
                 .get()) {
-            System.out.println(u.getUsername());
+            for (Book b : u.getBooks()) {
+                b.setName("kniga 2600");
+                for (Hero h : b.getHeroes()) {
+                    h.setName("hero 99900");
+                }
+            }
+            u.setUsername("go435345shoo123ooo");
+            em.persist(u, true);
         }
     }
 }
