@@ -88,5 +88,16 @@ public class Main {
                     userResult.getPass()
             );
         }
+
+
+        // test joins
+        // experimental
+        for (User u : em.compose(User.class, null)
+                .deepInnerJoin(Book.class)
+                .innerJoin(Hero.class)
+                .toEntity(User.class)
+                .get()) {
+            System.out.println(u.getUsername());
+        }
     }
 }

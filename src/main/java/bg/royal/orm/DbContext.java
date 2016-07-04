@@ -43,6 +43,16 @@ public interface DbContext {
     <E> Iterable<E> find(Class<E> table, String where) throws SQLException, ClassNotFoundException, IllegalAccessException, InstantiationException;
 
     /**
+     * Composes SQL query into a relational resultset in order to join
+     * relational entities to have entity's collections filled
+     *
+     * @param table The starting table
+     * @param where Plain SQL WHERE clause
+     * @throws SQLException
+     */
+    <E> RelationalResultSet<E> compose(Class<E> table, String where) throws SQLException;
+
+    /**
      * Executes builtin SQL by given Table in order to return
      * an iterable depending on the resultset
      *
